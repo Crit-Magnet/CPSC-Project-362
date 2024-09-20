@@ -24,5 +24,6 @@ Insert use case stories here
 Insert use case stories here
 
 ## Diagram
+Insert image of diagram
 
 
