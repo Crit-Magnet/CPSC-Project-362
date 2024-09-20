@@ -28,7 +28,56 @@ students in private and group messages.
 
 ## User Stories
 
-Insert use case stories here
+### US-1
+| Requirements  | Examples & Explanations|
+| ------------- |:-------------:|
+| ID      | US-1    |
+| Name     | Login to Service     |
+| Description      |   Student accesses a login page through their school's LMS or the ChatterBox website using their school's LMS credentials   |
+| Primary Actor      | Student     |
+| Preconditions      | Student has access to a computer, the domain, and the internet     |
+| Postconditions      | Student is successfully logs into the system     |
+
+|   MAIN SUCCESS SCENARIO |
+| --------------------- |
+| 1. Student opens internet browser. 
+| 2. Student accesses their school's LMS or ChatterBox website.
+| 3. Student logs in to their account using their school school's LMS credentials.
+
+
+### US-2
+| Requirements  | Examples & Explanations|
+| ------------- |:-------------:|
+| ID      | US-2    |
+| Name     | Notification of New Messages    |
+| Description      |   Students will see when they recieve a new message, as well as the sender   |
+| Primary Actor      | Student     |
+| Preconditions      | Student has access to a computer, internet, and is currently logged in with their credentials     |
+| Postconditions      | Student can see the notification's message as well as the sender's name     |
+
+|   MAIN SUCCESS SCENARIO |
+| --------------------- |
+| 1. Student logs in to their account|
+| 2. Student is notified of a new message|
+| 3. Student can see the message and the sender's name|
+
+
+### US-3
+| Requirements  | Examples & Explanations|
+| ------------- |:-------------:|
+| ID      | US-3    |
+| Name     | Theme Selector    |
+| Description      |   Students will be able to access their settings page and customize their account's colors   |
+| Primary Actor      | Student     |
+| Preconditions      | Student has access to a computer, internet, and is currently logged in with their credentials     |
+| Postconditions      | Student can access and change the colors on their profile     |
+
+|   MAIN SUCCESS SCENARIO |
+| --------------------- |
+| 1. Student logs in to their account|
+| 2. Student access a settings page|
+| 3. Student can view and change the theme (colors) of their profile|
+| 4. Student can save changes to keep them permanently|
 
 ## Diagram
 
