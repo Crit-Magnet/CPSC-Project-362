@@ -81,4 +81,4 @@ students in private and group messages.
 
 ## Diagram
 
-Insert image of diagram
+Insert diagram here
