@@ -23,61 +23,64 @@ students in private and group messages.
 
 ## Use Cases
 
+- Users will be promted to sign in by entering ther email, phone number and their passwords. Users will be asked if they want an email or text message for verification. An email or a text message will be sent to them to verify their account to procced to login. After successful verification, a message will be displayed and log in the user.
 - Individuals can use this app to communicate with each other. Users are prompted to type the message they want to send to another user into a chat box and once the text is ready they can click a button to send their text to the other user.
 - For image and file sharing, users can click a button to browse the type of file they want to share such as an image or a file. Once they choose the type of file users will be able to browse the specific folder, choose the image or file, and click on the send button to deliver the folder.
+- Users will recieve notifications if they get a message from another user. Users can view the message by clicking on the notification which will display the chatbox between the two users.
 
 ## User Stories
 
 ### US-1
-| Requirements  | Examples & Explanations|
-| ------------- |:-------------:|
-| ID      | US-1    |
-| Name     | Login to Service     |
-| Description      |   Student accesses a login page through their school's LMS or the ChatterBox website using their school's LMS credentials   |
-| Primary Actor      | Student     |
-| Preconditions      | Student has access to a computer, the domain, and the internet     |
-| Postconditions      | Student is successfully logs into the system     |
 
-|   MAIN SUCCESS SCENARIO |
-| --------------------- |
-| 1. Student opens internet browser. 
-| 2. Student accesses their school's LMS or ChatterBox website.
-| 3. Student logs in to their account using their school school's LMS credentials.
+| Requirements   |                                                 Examples & Explanations                                                 |
+| -------------- | :---------------------------------------------------------------------------------------------------------------------: |
+| ID             |                                                          US-1                                                           |
+| Name           |                                                    Login to Service                                                     |
+| Description    | Student accesses a login page through their school's LMS or the ChatterBox website using their school's LMS credentials |
+| Primary Actor  |                                                         Student                                                         |
+| Preconditions  |                             Student has access to a computer, the domain, and the internet                              |
+| Postconditions |                                      Student is successfully logs into the system                                       |
 
+| MAIN SUCCESS SCENARIO                                                            |
+| -------------------------------------------------------------------------------- |
+| 1. Student opens internet browser.                                               |
+| 2. Student accesses their school's LMS or ChatterBox website.                    |
+| 3. Student logs in to their account using their school school's LMS credentials. |
 
 ### US-2
-| Requirements  | Examples & Explanations|
-| ------------- |:-------------:|
-| ID      | US-2    |
-| Name     | Notification of New Messages    |
-| Description      |   Students will see when they recieve a new message, as well as the sender   |
-| Primary Actor      | Student     |
-| Preconditions      | Student has access to a computer, internet, and is currently logged in with their credentials     |
-| Postconditions      | Student can see the notification's message as well as the sender's name     |
 
-|   MAIN SUCCESS SCENARIO |
-| --------------------- |
-| 1. Student logs in to their account|
-| 2. Student is notified of a new message|
-| 3. Student can see the message and the sender's name|
+| Requirements   |                                    Examples & Explanations                                    |
+| -------------- | :-------------------------------------------------------------------------------------------: |
+| ID             |                                             US-2                                              |
+| Name           |                                 Notification of New Messages                                  |
+| Description    |           Students will see when they recieve a new message, as well as the sender            |
+| Primary Actor  |                                            Student                                            |
+| Preconditions  | Student has access to a computer, internet, and is currently logged in with their credentials |
+| Postconditions |            Student can see the notification's message as well as the sender's name            |
 
+| MAIN SUCCESS SCENARIO                                |
+| ---------------------------------------------------- |
+| 1. Student logs in to their account                  |
+| 2. Student is notified of a new message              |
+| 3. Student can see the message and the sender's name |
 
 ### US-3
-| Requirements  | Examples & Explanations|
-| ------------- |:-------------:|
-| ID      | US-3    |
-| Name     | Theme Selector    |
-| Description      |   Students will be able to access their settings page and customize their account's colors   |
-| Primary Actor      | Student     |
-| Preconditions      | Student has access to a computer, internet, and is currently logged in with their credentials     |
-| Postconditions      | Student can access and change the colors on their profile     |
 
-|   MAIN SUCCESS SCENARIO |
-| --------------------- |
-| 1. Student logs in to their account|
-| 2. Student access a settings page|
-| 3. Student can view and change the theme (colors) of their profile|
-| 4. Student can save changes to keep them permanently|
+| Requirements   |                                    Examples & Explanations                                    |
+| -------------- | :-------------------------------------------------------------------------------------------: |
+| ID             |                                             US-3                                              |
+| Name           |                                        Theme Selector                                         |
+| Description    |   Students will be able to access their settings page and customize their account's colors    |
+| Primary Actor  |                                            Student                                            |
+| Preconditions  | Student has access to a computer, internet, and is currently logged in with their credentials |
+| Postconditions |                   Student can access and change the colors on their profile                   |
+
+| MAIN SUCCESS SCENARIO                                              |
+| ------------------------------------------------------------------ |
+| 1. Student logs in to their account                                |
+| 2. Student access a settings page                                  |
+| 3. Student can view and change the theme (colors) of their profile |
+| 4. Student can save changes to keep them permanently               |
 
 ## Diagram
 
