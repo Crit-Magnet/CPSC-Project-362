@@ -81,4 +81,4 @@ students in private and group messages.
 
 ## Diagram
 
-Insert diagram here
+![diagram](https://github.com/Crit-Magnet/CPSC-Project-362/blob/main/Diagram_9-20-24.png?raw=true)
