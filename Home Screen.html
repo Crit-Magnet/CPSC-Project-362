@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<!-- HOME SCREEN LOGIN -->
+<!-- APPLICATION LANDING PAGE -->
+<head>
+	<link rel="stylesheet" href="Registration Style Sheet.css"></link>
+	<meta charset="UTF-8">
+	<title>Chat Profile Login</title>
+</head>
+
+<body>
+
+<!-- form/main body -->
+<!-- This form attempts a login connection, which will use JS to check if the user is new based on the CWID == CWID-in-DB -->
+<!-- If new user, will use "action" to take user to "Register New User" page -->
+	<form method="get" action="file:///C:/Users/rscal/OneDrive/Documents/CS1D-Project-1/CPSC-Project-362/Register%20New%20User.html">
+		<h1>Welcome Back</h1>
+		<p>Let's Get Some Info For Your New Profile</p>
+		<!-- Username in Placeholder -->
+		<!-- Takes anything as text - includes numbers, symbols, etc -->
+		 <label for="first-name">Username: (required)<input id="username" name="username" type="text"  placeholder="John_Math68" maxlength=50 required></label>
+		
+		<!-- CWID -->
+		<!-- must be 9 numbers - numbers only -->
+		<label for="CWID">CWID: (required) <input id="CWID" type=numbers pattern="[0-9]{9,}" placeholder="123456789" maxlength=9 minlength=9 required></input></label> 
+		
+		<input type="submit" value="Create Profile" id="submit button">
+	</form>
+	
+</body>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+	<link rel="stylesheet" href="Registration Style Sheet.css"></link>
+	<meta charset="UTF-8">
+	<title>Chat Profile</title>
+</head>
+
+<body>
+
+<!-- form/main body -->
+<!-- gets url if all conditions (username+cwid) are met and sends user there -->
+<!-- will most likely contain a get & post method to move users along and post data to DB -->
+	<form method="get" action="https://wiki.teamfortress.com/wiki/Main_Page">
+		<h1>New User Profile</h1>
+		<p>Let's Get Some Info For Your New Profile</p>
+		<!-- Username in Placeholder -->
+		<!-- Takes anything as text - includes numbers, symbols, etc -->
+		 <label for="first-name">Username: (required)<input id="username" name="username" type="text"  placeholder="John_Math68" maxlength=50 required></label>
+		
+		<!-- CWID -->
+		<!-- must be 9 numbers - numbers only -->
+		<label for="CWID">CWID: (required) <input id="CWID" type=numbers pattern="[0-9]{9,}" placeholder="123456789" maxlength=9 minlength=9 required></input></label> 
+
+		<!-- Bio (optional)-->
+		<label for="bio">About You: <textarea id="bio" name="bio" cols=30 rows=10 placeholder="My name is ..."></textarea></label>
+		
+		<!-- PFP (optional) -->
+		<label for="pfp">Profile Picture: <input id="pfp" type="file" accept="image/*" max-height:300px max-width:300px></label>
+		
+		<input type="submit" value="Create Profile" id="submit button">
+	</form>
+	
+</body>
